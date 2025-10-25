@@ -1,0 +1,17 @@
+pix{
+    width: 100%;
+}
+
+.caro{
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+
+
+@media (max-width: 376px) {
+  .caro{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}

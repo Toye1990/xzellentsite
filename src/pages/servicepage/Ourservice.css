@@ -1,0 +1,103 @@
+.cardflex{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    gap: 10px;
+    margin-left: 60px;
+}
+
+
+.btn{
+    background-color: #0872ff;
+}
+
+.card-space2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.available{
+    background-color: #17caf3;
+    color: #202020;
+}
+
+.web{
+    color: #0872ff;
+}
+
+.card-title{
+     color: #0872ff;
+     font-weight: 900;
+     margin-left: 10px;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.badge.available {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+
+
+
+
+ @media (max-width: 376px) {
+      .card-space2 {
+       display: flex;
+        flex-direction: row;
+      }
+
+      .cardflex{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 100;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+      
+    }
+
+
+
+ @media (max-width: 576px) {
+      .card-space2 {
+       display: flex;
+        flex-direction: row;
+      }
+
+      .cardflex{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 100;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+      
+    }

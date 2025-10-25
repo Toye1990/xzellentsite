@@ -1,0 +1,134 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+.header{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+.companyname{
+  color: white;
+  margin-right: 20px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+}
+.cut{
+  padding: 20px 15px;
+  margin-left: 30px;
+}
+
+.logosize{
+  width: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.navbar {
+      background-color: #012e72; /* Bootstrap primary color */
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #fff !important;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #ffc107 !important; /* gold hover color */
+    }
+
+    .btn-login {
+      background-color: #ffc107;
+      border: none;
+      color: #000;
+      font-weight: 600;
+    }
+
+    .btn-login:hover {
+      background-color: #e0a800;
+    }
+
+    .footer a:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+.social-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #0d6efd;
+}
+
+.footer-textname{
+  margin-left: 10px;
+}
+
+/* Small devices adjustments */
+@media (max-width: 576px) {
+  .footer h5, .footer h6 {
+    text-align: center;
+  }
+  .footer ul, .footer p, .footer .d-flex {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+
+    /* Mobile adjustments */
+    @media (max-width: 576px) {
+      .navbar-nav {
+        text-align: center;
+      }
+      .btn-login {
+        width: 100%;
+      }
+    }
+
+
+    /*footer*/
+
+    .footer {
+            background-color: #f8f9fa; /* Light background for a modern look */
+            color: #495057; /* Dark text for contrast */
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+            border-top: 4px solid #007bff; /* Primary color line for unique accent */
+        }
+        .footer a {
+            color: #495057; /* Darker links */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: #007bff; /* Blue on hover */
+        }
+        .social-icon {
+            font-size: 1.8rem; /* Slightly larger icons */
+            margin-right: 1.2rem;
+            color: #6c757d; /* Muted gray for default icon color */
+            transition: color 0.3s;
+        }
+        .social-icon:hover {
+            color: #007bff; /* Primary blue on hover */
+        }
+        .footer h5 {
+            color: #007bff; /* Primary color for headings */
+            margin-bottom: 1.5rem;
+            font-weight: 700; /* Bolder headings */
+            text-transform: uppercase;
+        }

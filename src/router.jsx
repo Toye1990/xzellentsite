@@ -3,7 +3,7 @@ import Homepage from "./pages/home/Homepage";
 import Ourservice from "./pages/servicepage/Ourservice";
 import About from "./pages/About/About";
 import Contact from "./pages/contact/Contact";
-import Orderpage from "./pages/contact/orderpage";
+import Orderpage from "./pages/contact/Orderpage";
 
 
 

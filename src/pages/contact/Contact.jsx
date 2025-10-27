@@ -40,7 +40,7 @@ const Contact = () => {
       }
 
       const response = await axios.post(
-        "http://xzellentwebbackend.onrender.com/api/v1/contact",
+        "https://xzellentwebbackend.onrender.com/api/v1/contact",
         formData,
         { headers: { "Content-Type": "application/json" } }
       );

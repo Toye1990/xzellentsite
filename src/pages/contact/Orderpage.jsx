@@ -41,7 +41,7 @@ const Orderpage = () => {
       }
 
       const response = await axios.post(
-        "http://xzellentwebbackend.onrender.com/api/v1/productrequest",
+        "https://xzellentwebbackend.onrender.com/api/v1/productrequest",
         formData,
         {
           headers: { "Content-Type": "application/json" },

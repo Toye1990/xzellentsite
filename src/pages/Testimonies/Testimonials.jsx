@@ -33,7 +33,7 @@ const Testimonials = () => {
                         <div class="rating-stars mb-3">
                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
-                        <p class="card-text flex-grow-1">"Xzellent sell good and reliable and their response is fast and swift"</p>
+                        <p class="card-text flex-grow-1">"Xzellent sell good and reliable products and their response is fast and swift"</p>
                         <div class="mt-auto pt-3 border-top">
                             <h6 class="mb-0 fw-bold text-primary">Aisha M.</h6>
                             <small class="text-muted">Procurement Officer Globalway Ltd</small>

@@ -1,6 +1,7 @@
 import React from 'react'
 import pic6 from '../../assets/images/pic6.jpg'
 import './About.css'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
                 <p class="lead">
                     "For seven years, Xzellent Solutions—starting as Excellent Stores—has built a reputation as a trusted and reliable partner. Our longevity is a testament to our known record of excellence and unwavering quality. We are dedicated to customer delight, treating every client relationship with the highest respect. We don't just aim for service; we guarantee satisfaction, ensuring that every engagement delivers the value and outstanding results our customers expect."
                 </p>
-                <a href="#" class="btn btn-primary btn-lg mt-3">Learn more</a>
+                <Link to="/products" class="btn btn-primary btn-lg mt-3 buttoncenter">Learn more</Link>
             </div>
 
             <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0">

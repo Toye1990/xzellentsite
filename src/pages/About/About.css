@@ -6,3 +6,39 @@ hr{
     color: #0872ff;
 }
 
+
+.buttoncenter{
+    display: inline-block;
+}
+
+
+
+@media (max-width: 376px)  {
+.buttoncenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+               }
+        }
+
+
+        
+       @media (max-width: 576px)  {
+             .buttoncenter{
+           display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+
+  
+        }
+
+
+          
+       @media (max-width: 1080px)  {
+             .buttoncenter{
+          display: flex;
+    align-items: center;
+    justify-content: center;
+             }
+        }

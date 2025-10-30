@@ -43,3 +43,29 @@
             margin-left: 20px;
         }
         }
+
+
+        
+       @media (max-width: 576px)  {
+             .set{
+            margin-left: 10px;
+            text-align: center;
+        }
+
+        .set1{
+            margin-left: 10px;
+        }
+        }
+
+
+          
+       @media (max-width: 1080px)  {
+             .set{
+            margin-left: 40px;
+            text-align: center;
+        }
+
+        .set1{
+            margin-left: 40px;
+        }
+        }

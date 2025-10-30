@@ -9,9 +9,53 @@ pix{
 
 
 
-@media (max-width: 376px) {
+/* Small tablets and large phones (max width 768px) */
+@media (max-width: 768px) {
+  .caro {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Medium phones (max width 480px) */
+@media (max-width: 480px) {
+  .caro {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Small phones like 360×760 */
+@media (max-width: 360px) {
+  .caro {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+
+/*
+@media (max-width: 356px) {
   .caro{
     margin-left: 10px;
     margin-right: 10px;
+  width: 200px;
 }
 }
+
+
+@media (max-width: 576px) {
+  .caro{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+}
+}
+
+@media (max-width: 360px) {
+  .caro {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+*/

@@ -33,7 +33,45 @@
         }
 
 
-       @media (max-width: 376px)  {
+
+        /* Tablets and small laptops (≤ 992px) */
+@media (max-width: 992px) {
+  .set,
+  .set1 {
+    margin-left: 100px;
+    text-align: center;
+  }
+}
+
+/* Medium devices like large phones & small tablets (≤ 768px) */
+@media (max-width: 768px) {
+  .set,
+  .set1 {
+    margin-left: 50px;
+    text-align: center;
+  }
+}
+
+/* Regular phones (≤ 576px) */
+@media (max-width: 576px) {
+  .set,
+  .set1 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Small phones (≤ 400px, e.g., 360×760) */
+@media (max-width: 400px) {
+  .set,
+  .set1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1.5rem; /* slightly smaller font for readability */
+  }
+}
+
+      /* @media (max-width: 376px)  {
              .set{
             margin-left: 20px;
             text-align: center;
@@ -68,4 +106,4 @@
         .set1{
             margin-left: 40px;
         }
-        }
+        }*/

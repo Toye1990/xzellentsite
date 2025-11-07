@@ -5,8 +5,10 @@ import Header from "../../component/Header";
 import Footer from "../../component/Footer";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
+import Buttonloading from "../../component/buttonLoader/Buttonloading";
 
 const Orderpage = () => {
+     const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     firstname: "",
     email: "",
@@ -24,8 +26,9 @@ const Orderpage = () => {
   };
 
   const buttonFunction = async (e) => {
+    
     e.preventDefault(); // 🔥 stop page reload
-
+        setLoading(true);
     try {
       const emptyFields = [];
 
@@ -50,6 +53,7 @@ const Orderpage = () => {
 
       console.log("response", response.data);
       toast.success("Message delivered successfully!");
+         setLoading(false);
       setFormData({
         firstname: "",
         email: "",
@@ -64,6 +68,7 @@ const Orderpage = () => {
       } else {
         toast.error("Unexpected error occurred");
       }
+         setLoading(false);
     }
   };
 
@@ -166,7 +171,7 @@ const Orderpage = () => {
               </div>
 
               {/* Submit Button */}
-              <div className="d-grid">
+              {/*<div className="d-grid">
                 <button
                   type="submit"
                   id="submitButton"
@@ -175,7 +180,29 @@ const Orderpage = () => {
                 >
                   Submit Message
                 </button>
+              </div>*/}
+
+                 
+              {loading ? (
+              <div className="d-grid">
+                <button
+                  type="button"
+                  className="btn btn-primary btn-lg rounded-3 shadow-sm py-3 text-uppercase fw-bold"
+                >
+                 <Buttonloading/>
+                </button>
               </div>
+              ) : (
+                 <div className="d-grid">
+                <button
+                  type="button"
+                  onClick={buttonFunction}
+                  className="btn btn-primary btn-lg rounded-3 shadow-sm py-3 text-uppercase fw-bold"
+                >
+                  Submit Message
+                </button>
+              </div>
+              )}
             </form>
           </div>
         </div>

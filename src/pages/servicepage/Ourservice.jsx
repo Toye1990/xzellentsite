@@ -12,6 +12,9 @@ import pic16 from "../../assets/images/solarwk3.jpg";
 import pic17 from "../../assets/images/web2.jpg";
 import pic18 from "../../assets/images/graphics2.jpg";
 import pic19 from "../../assets/images/logistic3.jpg";
+import tyre1 from "../../assets/images/tyrepic2.jpg"
+import tyre2 from "../../assets/images/tyrepic3.jpg"
+import tyre3 from "../../assets/images/tyrepic4.jpg"
 import "./Ourservice.css";
 import { Link } from "react-router-dom";
 
@@ -24,7 +27,7 @@ const Ourservice = () => {
 
       <div className="container my-5">
 
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           {/* CARD 1 */}
           <div className="col d-flex align-items-stretch">
             <div className="card shadow-sm w-100">
@@ -179,6 +182,83 @@ const Ourservice = () => {
 
           {/* CARD 3 */}
           <div className="col d-flex align-items-stretch">
+            <div className="card shadow-sm w-100">
+              <div
+                id="carouselProduct3"
+                className="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      src={tyre1}
+                      className="d-block w-100"
+                      alt="Solar View 1"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src={tyre2}
+                      className="d-block w-100"
+                      alt="Solar View 2"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src={tyre3}
+                      className="d-block w-100"
+                      alt="Solar View 3"
+                    />
+                  </div>
+                </div>
+
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselProduct3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselProduct3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title fw-bold text-dark">
+                  Truck & Car Tyre Supply
+                </h5>
+                <p className="card-text text-muted flex-grow-1">
+                 We deliver top-grade, long-lasting tyres for cars and trucks, ensuring our 
+                 customers enjoy safer, smoother, and more durable driving experiences.
+                </p>
+                <span className="badge bg-light text-dark mb-3">
+                  Available Now
+                </span>
+                <Link to="/placeorder" className="btn btn-success w-100 mt-auto">
+                  Place Order
+                </Link>
+              </div>
+            </div>
+          </div>
+        
+          
+          {/* CARD 4 */}
+           <div className="col d-flex align-items-stretch">
             <div className="card shadow-sm w-100">
               <div
                 id="carouselProduct3"

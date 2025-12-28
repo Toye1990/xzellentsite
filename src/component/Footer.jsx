@@ -61,7 +61,7 @@ const Footer = () => {
 
     <div class="row align-items-center text-center text-md-start">
       <div class="col-md-6 mb-2 mb-md-0">
-        <small class="text-muted">&copy; 2024 Xzellent Solutions. All rights reserved.</small>
+        <small class="text-muted">&copy; 2025 Xzellent Solutions. All rights reserved.</small>
       </div>
       <div class="col-md-6 text-center text-md-end">
         <small>

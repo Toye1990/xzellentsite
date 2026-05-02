@@ -177,12 +177,14 @@ const Ourservice = () => {
                 <span className="badge bg-light text-dark mb-3">
                   Available Now
                 </span>
-                <Link
-                  to="/placeorder"
+                  <a
+                  href="https://www.xzellentstore.com/shop"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-success w-100 mt-auto"
                 >
-                  Place Order
-                </Link>
+                  Shop Now
+                </a>
               </div>
             </div>
           </div>

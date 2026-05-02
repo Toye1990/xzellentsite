@@ -12,9 +12,9 @@ import pic16 from "../../assets/images/solarwk3.jpg";
 import pic17 from "../../assets/images/web2.jpg";
 import pic18 from "../../assets/images/graphics2.jpg";
 import pic19 from "../../assets/images/logistic3.jpg";
-import tyre1 from "../../assets/images/tyrepic2.jpg"
-import tyre2 from "../../assets/images/tyrepic3.jpg"
-import tyre3 from "../../assets/images/tyrepic4.jpg"
+import tyre1 from "../../assets/images/tyrepic2.jpg";
+import tyre2 from "../../assets/images/tyrepic3.jpg";
+import tyre3 from "../../assets/images/tyrepic4.jpg";
 import "./Ourservice.css";
 import { Link } from "react-router-dom";
 
@@ -26,7 +26,6 @@ const Ourservice = () => {
       </h2>
 
       <div className="container my-5">
-
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           {/* CARD 1 */}
           <div className="col d-flex align-items-stretch">
@@ -97,7 +96,10 @@ const Ourservice = () => {
                 <span className="badge bg-light text-dark mb-3">
                   Available Now
                 </span>
-                <Link to="/placeorder" className="btn btn-primary w-100 mt-auto">
+                <Link
+                  to="/placeorder"
+                  className="btn btn-primary w-100 mt-auto"
+                >
                   Place Order
                 </Link>
               </div>
@@ -173,7 +175,10 @@ const Ourservice = () => {
                 <span className="badge bg-light text-dark mb-3">
                   Available Now
                 </span>
-                <Link to="/placeorder" className="btn btn-success w-100 mt-auto">
+                <Link
+                  to="/placeorder"
+                  className="btn btn-success w-100 mt-auto"
+                >
                   Place Order
                 </Link>
               </div>
@@ -243,22 +248,27 @@ const Ourservice = () => {
                   Truck & Car Tyre Supply
                 </h5>
                 <p className="card-text text-muted flex-grow-1">
-                 We deliver top-grade, long-lasting tyres for cars and trucks, ensuring our 
-                 customers enjoy safer, smoother, and more durable driving experiences.
+                  We deliver top-grade, long-lasting tyres for cars and trucks,
+                  ensuring our customers enjoy safer, smoother, and more durable
+                  driving experiences.
                 </p>
                 <span className="badge bg-light text-dark mb-3">
                   Available Now
                 </span>
-                <Link to="/https://www.xzellentstore.com/shop" className="btn btn-success w-100 mt-auto">
-                  shop now
-                </Link>
+                <a
+                  href="https://www.xzellentstore.com/shop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-success w-100 mt-auto"
+                >
+                  Shop Now
+                </a>
               </div>
             </div>
           </div>
-        
-          
+
           {/* CARD 4 */}
-           <div className="col d-flex align-items-stretch">
+          <div className="col d-flex align-items-stretch">
             <div className="card shadow-sm w-100">
               <div
                 id="carouselProduct3"
@@ -326,7 +336,10 @@ const Ourservice = () => {
                 <span className="badge bg-light text-dark mb-3">
                   Available Now
                 </span>
-                <Link to="/placeorder" className="btn btn-success w-100 mt-auto">
+                <Link
+                  to="/placeorder"
+                  className="btn btn-success w-100 mt-auto"
+                >
                   Place Order
                 </Link>
               </div>

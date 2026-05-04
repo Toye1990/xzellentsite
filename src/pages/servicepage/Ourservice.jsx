@@ -260,7 +260,7 @@ const Ourservice = () => {
                   Available Now
                 </span>
                 <a
-                  href="https://www.xzellentstore.com/shop"
+                  href="https://www.xzellentstore.com/shop/tyres"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-success w-100 mt-auto"
